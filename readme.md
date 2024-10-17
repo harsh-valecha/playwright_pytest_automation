@@ -1,4 +1,4 @@
-## Pytest playwright Web Automation Framework
+# Pytest playwright Web Automation Framework
 
 ## Features
 1. Page Object Model
@@ -39,3 +39,10 @@ Locator displayed in playwright's inspector locator tab-
 
 Screenshot on Failure - 
 ![img_2.png](img_2.png)
+
+File Structure Overview - 
+![file_structure_overview.png](file_structure_overview.png)
+
+Debugging Tests (by applying brekpoint 
+using page.pause() and resume , stepover and pause tools from playwright debugger menu)
+![img_3.png](img_3.png)
