@@ -26,7 +26,7 @@ def test_login(page:Page,user_data:dict):
     assert page.url == Config.book_appointment_url
 
 
-@pytest.mark.hook
+@pytest.mark.e2e
 @pytest.mark.parametrize("form_data", Config.get_form_data())
 def test_booking_appointment(page: Page, form_data: dict):
     appointment_page = AppointmentPage(page)
