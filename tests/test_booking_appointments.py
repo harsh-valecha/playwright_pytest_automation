@@ -48,7 +48,7 @@ def test_booking_appointment(page: Page, form_data: dict):
         booking_appointment_page.none_radio.click()
     booking_appointment_page.visit_date_txt.fill(form_data['visit_date'])
     page.keyboard.press('Enter')
-    page.pause()
+    # page.pause()
     booking_appointment_page.comment_txt.fill(form_data['comment'])
     booking_appointment_page.book_appointment_btn.click()
     assert page.url == Config.summary_url
