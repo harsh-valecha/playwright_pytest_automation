@@ -6,6 +6,8 @@ class Config:
     login_url = 'https://katalon-demo-cura.herokuapp.com/profile.php#login'
     book_appointment_url = 'https://katalon-demo-cura.herokuapp.com/#appointment'
     summary_url = 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary'
+    dynamic_element_url = 'https://the-internet.herokuapp.com/dynamic_loading/1'
+    jquery_ui_url = 'https://the-internet.herokuapp.com/jqueryui/menu#'
 
     @staticmethod
     def get_users():

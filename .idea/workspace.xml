@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07413296-6aab-4ca5-855e-f74eb66f1274" name="Changes" comment="final test run and updated test report">
+    <list default="true" id="07413296-6aab-4ca5-855e-f74eb66f1274" name="Changes" comment="updated marker">
+      <change afterPath="$PROJECT_DIR$/pages/dynamic_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/jqueryui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_dynamic_elements.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +51,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.config.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Harsh_Personal/Automation/playwright_pytest_automation/utils"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Harsh_Personal/Automation/playwright_pytest_automation/utils&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Harsh_Personal\Automation\playwright_pytest_automation\utils" />
@@ -115,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729172316637</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated marker">
+      <option name="closed" value="true" />
+      <created>1729175471875</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729175471875</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +138,7 @@
     <MESSAGE value="added e2e testcase for login+booking appointment with datadriven approach" />
     <MESSAGE value="commented debugger in code" />
     <MESSAGE value="final test run and updated test report" />
-    <option name="LAST_COMMIT_MESSAGE" value="final test run and updated test report" />
+    <MESSAGE value="updated marker" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated marker" />
   </component>
 </project>

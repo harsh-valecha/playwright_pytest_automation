@@ -10,13 +10,22 @@
 7. Easily find Web elements using playwright's pick locator feature
 8. HTML Reporting with generating the report for each finished test instead of test run completion
 9. Data driven testing with database connectivity
+10. Dynamic Elements handling 
+11. JQuery UI Elements handling (In Progress)
+
+Following points are in pipeline -
+12. Alerts and Iframe handling 
+13. Multi-window based flow handling
+14. Sessions Handling Mechanism
+
 
 and many more ....
 
 
 
 The Demo illustrated uses this website -
-https://katalon-demo-cura.herokuapp.com/
+1. https://katalon-demo-cura.herokuapp.com/
+2. https://the-internet.herokuapp.com/
 
 
 ### Using playwright's codegen feature to locate webelements and record test scripts -
