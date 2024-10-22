@@ -11,7 +11,7 @@
 8. HTML Reporting with generating the report for each finished test instead of test run completion
 9. Data driven testing with database connectivity
 10. Dynamic Elements handling 
-11. JQuery UI Elements handling (In Progress)
+11. JQuery UI Elements handling 
 
 Following points are in pipeline -
 12. Alerts and Iframe handling 

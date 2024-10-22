@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07413296-6aab-4ca5-855e-f74eb66f1274" name="Changes" comment="updated marker">
-      <change afterPath="$PROJECT_DIR$/pages/dynamic_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/jqueryui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_dynamic_elements.py" afterDir="false" />
+    <list default="true" id="07413296-6aab-4ca5-855e-f74eb66f1274" name="Changes" comment="created new testcases for handling dynamic webelements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_dynamic_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_dynamic_elements.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729175471875</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created new testcases for handling dynamic webelements">
+      <option name="closed" value="true" />
+      <created>1729603722116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729603722116</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,6 +143,7 @@
     <MESSAGE value="commented debugger in code" />
     <MESSAGE value="final test run and updated test report" />
     <MESSAGE value="updated marker" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated marker" />
+    <MESSAGE value="created new testcases for handling dynamic webelements" />
+    <option name="LAST_COMMIT_MESSAGE" value="created new testcases for handling dynamic webelements" />
   </component>
 </project>

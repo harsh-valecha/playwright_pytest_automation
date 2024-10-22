@@ -12,8 +12,9 @@ def test_dynamic_element(page):
 def test_jqueryui_elements(page):
     jqueryui_page = JQueryDynamicPage(page)
     jqueryui_page.navigate_to_url()
-    jqueryui_page.enabled_menu.hover(timeout=3000)
-    page.pause()
+    jqueryui_page.enabled_menu.hover(force=True)
+    page.wait_for_timeout(2000)
     assert jqueryui_page.downloads_menu.is_visible()==True
-    jqueryui_page.downloads_menu.hover()
+    jqueryui_page.downloads_menu.hover(force=True)
+    page.wait_for_timeout(2000)
     assert jqueryui_page.excel_link.is_visible()==True
