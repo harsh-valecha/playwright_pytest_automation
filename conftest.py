@@ -10,7 +10,7 @@ FAILED_SCREENSHOTS_DIR = "failed_test_screenshots/"
 @pytest.fixture(scope="function")
 def context():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         context = browser.new_context()
         yield context
         context.close()
