@@ -37,11 +37,26 @@ jobs:
       - name: Install Allure
         run: |
           # Download Allure
-          curl -o allure.zip -L "https://github.com/allure-framework/allure2/releases/latest/download/allure-2.20.1.zip"
+          curl -L -o allure.zip "https://github.com/allure-framework/allure2/releases/latest/download/allure-2.20.1.zip"
+          
+          # Check if download was successful
+          if [ ! -f allure.zip ]; then
+            echo "Allure download failed!"
+            exit 1
+          fi
+          
           # Unzip
           unzip allure.zip -d allure
+
+          # Check if unzip was successful
+          if [ $? -ne 0 ]; then
+            echo "Failed to unzip allure.zip"
+            exit 1
+          fi
+          
           # Move to /usr/local/bin
           sudo mv allure/bin/allure /usr/local/bin/allure
+
           # Clean up
           rm -rf allure allure.zip
 
