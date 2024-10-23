@@ -40,7 +40,7 @@ jobs:
 
       - name: Run Playwright Pytest Tests
         run: |
-          pytest --allure-results=allure-results
+          pytest --alluredir=allure-results
 
       - name: Generate Allure Report
         run: |
