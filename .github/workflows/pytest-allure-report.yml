@@ -29,6 +29,14 @@ jobs:
       - name: Install Playwright Browsers
         run: |
           playwright install
+      
+      - name: Install Allure
+        run: |
+          sudo apt-get install -y openjdk-11-jdk
+          wget https://github.com/allure-framework/allure2/releases/latest/download/allure-2.20.1.zip
+          unzip allure-2.20.1.zip -d /opt/
+          sudo ln -s /opt/allure-2.20.1/bin/allure /usr/bin/allure
+
 
       - name: Run Playwright Pytest Tests
         run: |
