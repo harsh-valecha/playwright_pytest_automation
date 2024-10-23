@@ -8,7 +8,7 @@
 5. Debugging using playwright debugger
 6. Recording Test scripts Preparation using playwright's codegen feature
 7. Easily find Web elements using playwright's pick locator feature
-8. HTML Reporting with generating the report for each finished test instead of test run completion
+8. HTML Reporting with allure report
 9. Data driven testing with database connectivity
 10. Dynamic Elements handling 
 11. JQuery UI Elements handling 
