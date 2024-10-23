@@ -35,6 +35,7 @@ Command to generate Allure test report in project directory-
 allure generate allure-results --clean -o allure-report
 ```
 
+
 Using Pick Locator - 
 ![img.png](img.png)
 
