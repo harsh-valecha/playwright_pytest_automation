@@ -8,6 +8,7 @@ class Config:
     summary_url = 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary'
     dynamic_element_url = 'https://the-internet.herokuapp.com/dynamic_loading/1'
     jquery_ui_url = 'https://the-internet.herokuapp.com/jqueryui/menu#'
+    multiple_windows_url = 'https://the-internet.herokuapp.com/windows'
 
     @staticmethod
     def get_users():

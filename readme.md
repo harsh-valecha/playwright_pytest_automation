@@ -12,12 +12,7 @@
 9. Data driven testing with database connectivity
 10. Dynamic Elements handling 
 11. JQuery UI Elements handling 
-
-Following points are in pipeline -
-12. Alerts and Iframe handling 
-13. Multi-window based flow handling
-14. Sessions Handling Mechanism
-
+12. Interacting with multiple windows
 
 and many more ....
 

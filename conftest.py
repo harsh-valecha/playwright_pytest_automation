@@ -6,16 +6,25 @@ import allure
 # Directory to store failed test screenshots
 FAILED_SCREENSHOTS_DIR = "failed_test_screenshots/"
 
-# Fixture to start and close Playwright browser and pass the page object
+# fixture for controlling the context
 @pytest.fixture(scope="function")
-def page():
+def context():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
         context = browser.new_context()
-        page = context.new_page()
-        yield page
+        yield context
         context.close()
         browser.close()
+
+
+# Fixture to start and close Playwright browser and pass the page object
+@pytest.fixture(scope="function")
+def page(context):
+    page = context.new_page()
+    yield page
+    page.close()  # Close the page after the test
+
+
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):
