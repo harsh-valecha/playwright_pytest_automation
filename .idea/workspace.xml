@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07413296-6aab-4ca5-855e-f74eb66f1274" name="Changes" comment="updated some changes">
-      <change afterPath="$PROJECT_DIR$/pages/multiple_windows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_multiple_windows.py" afterDir="false" />
+    <list default="true" id="07413296-6aab-4ca5-855e-f74eb66f1274" name="Changes" comment="created a new testcase for interacting with multiple pages">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/pytest-allure-report.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729670540117</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="created a new testcase for interacting with multiple pages">
+      <option name="closed" value="true" />
+      <created>1729683726528</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729683726528</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,6 +192,7 @@
     <MESSAGE value="updated marker" />
     <MESSAGE value="created new testcases for handling dynamic webelements" />
     <MESSAGE value="updated some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated some changes" />
+    <MESSAGE value="created a new testcase for interacting with multiple pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a new testcase for interacting with multiple pages" />
   </component>
 </project>
