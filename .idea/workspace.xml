@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07413296-6aab-4ca5-855e-f74eb66f1274" name="Changes" comment="updated to install allure">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/pytest-allure-report.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pytest-allure-report.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -283,7 +284,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729696578757</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="updated to install allure">
+      <option name="closed" value="true" />
+      <created>1729698009961</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1729698009961</updated>
+    </task>
+    <task id="LOCAL-00025" summary="updated to install allure">
+      <option name="closed" value="true" />
+      <created>1729698139276</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1729698139276</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
