@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.8'
 
       - name: Install dependencies
         run: |
@@ -33,30 +33,6 @@ jobs:
       - name: Run Playwright Pytest Tests
         run: |
           pytest
-
-      - name: Install Allure
-        run: |
-          # Install unzip if not already installed
-          sudo apt-get update
-          sudo apt-get install -y unzip
-
-          # Download Allure
-          curl -L -o allure.zip "https://github.com/allure-framework/allure2/releases/latest/download/allure-2.20.1.zip"
-          
-          # Check if download was successful
-          if [ ! -f allure.zip ]; then
-            echo "Allure download failed!"
-            exit 1
-          fi
-          
-          # Unzip
-          unzip allure.zip -d allure || { echo "Failed to unzip allure.zip"; exit 1; }
-          
-          # Move to /usr/local/bin
-          sudo mv allure/bin/allure /usr/local/bin/allure
-
-          # Clean up
-          rm -rf allure allure.zip
 
       - name: Generate Allure Report
         run: |
