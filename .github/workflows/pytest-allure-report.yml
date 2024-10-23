@@ -33,10 +33,10 @@ jobs:
       - name: Install Allure
         run: |
           sudo apt-get install -y openjdk-11-jdk
-          wget https://github.com/allure-framework/allure2/releases/latest/download/allure-2.31.0.zip
-          unzip allure-2.31.0.zip -d /opt/
-          sudo ln -s /opt/allure-2.31.0/bin/allure /usr/local/bin/allure
-          echo 'export PATH=$PATH:/opt/allure-2.31.0/bin' >> $GITHUB_ENV
+          wget https://github.com/allure-framework/allure2/releases/download/2.30.0/allure-2.30.0.zip
+          unzip allure-2.30.0.zip -d /opt/
+          sudo ln -s /opt/allure-2.30.0/bin/allure /usr/local/bin/allure
+          echo 'export PATH=$PATH:/opt/allure-2.30.0/bin' >> $GITHUB_ENV
 
       - name: Run Playwright Pytest Tests
         run: |
