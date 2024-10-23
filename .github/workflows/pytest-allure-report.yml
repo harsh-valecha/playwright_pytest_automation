@@ -36,6 +36,10 @@ jobs:
 
       - name: Install Allure
         run: |
+          # Install unzip if not already installed
+          sudo apt-get update
+          sudo apt-get install -y unzip
+
           # Download Allure
           curl -L -o allure.zip "https://github.com/allure-framework/allure2/releases/latest/download/allure-2.20.1.zip"
           
@@ -46,13 +50,7 @@ jobs:
           fi
           
           # Unzip
-          unzip allure.zip -d allure
-
-          # Check if unzip was successful
-          if [ $? -ne 0 ]; then
-            echo "Failed to unzip allure.zip"
-            exit 1
-          fi
+          unzip allure.zip -d allure || { echo "Failed to unzip allure.zip"; exit 1; }
           
           # Move to /usr/local/bin
           sudo mv allure/bin/allure /usr/local/bin/allure

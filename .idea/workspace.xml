@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07413296-6aab-4ca5-855e-f74eb66f1274" name="Changes" comment="added a workflow to generate html report">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+    <list default="true" id="07413296-6aab-4ca5-855e-f74eb66f1274" name="Changes" comment="updated to install allure">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/pytest-allure-report.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pytest-allure-report.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729693252659</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="running tests headless mode">
+      <option name="closed" value="true" />
+      <created>1729693693246</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729693693246</updated>
+    </task>
+    <task id="LOCAL-00015" summary="updated to install allure">
+      <option name="closed" value="true" />
+      <created>1729693891439</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729693891439</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -220,6 +235,8 @@
     <MESSAGE value="updated some changes" />
     <MESSAGE value="created a new testcase for interacting with multiple pages" />
     <MESSAGE value="added a workflow to generate html report" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a workflow to generate html report" />
+    <MESSAGE value="running tests headless mode" />
+    <MESSAGE value="updated to install allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated to install allure" />
   </component>
 </project>
